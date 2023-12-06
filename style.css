@@ -31,7 +31,7 @@ header .bg_image {
 .container {
   width: 86%;
   margin: -4rem auto 0;
-  padding: 1rem;
+  padding: 1rem 1rem 0;
   background-color: var(--White);
   border-radius: 10px;
   position: relative;
@@ -51,4 +51,29 @@ header .bg_image {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.question h4{
+    width: 75%;
+    font-size: 15px;
+    color: var(--Darkpurple);
+    font-weight: 600;
+    line-height: 1.1;
+}
+.faq{
+    padding: 1rem 0;
+}
+.faq:not(:last-child){
+    border-bottom: 1px solid var(--Lightpink);
+}
+.faq p{
+    color: var(--Grayishpurple);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 1rem 0;
+    display: none;
 }
