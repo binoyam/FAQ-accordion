@@ -1,8 +1,9 @@
-var questions = document.getElementsByClassName("question");
+var questions = document.querySelectorAll(".question");
 
-for (var i = 0; i < questions.length; i++) {
-  questions[i].addEventListener("click", showAnswer);
-}
+
+questions.forEach((question) => {
+    question.addEventListener("click", showAnswer)
+})
 function showAnswer() {
   var answer = this.nextElementSibling;
   var icon = this.querySelector(".icon");
