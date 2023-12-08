@@ -29,11 +29,11 @@ header .bg_image {
   opacity: 0.8;
 }
 .container {
-  width: 86%;
-  margin: -4rem auto 0;
+  max-width: 86%;
+  margin: -5rem auto 5rem;
   padding: 1.5rem 1rem 0.5rem;
   background-color: var(--White);
-  border-radius: 10px;
+  border-radius: 7px;
   position: relative;
   z-index: 999;
 }
@@ -46,9 +46,10 @@ header .bg_image {
 .header img {
   width: 23px;
 }
-/* .header h1{
-  font-size: 25px;
-} */
+.header h1 {
+  color: var(--Darkpurple);
+  font-weight: 700;
+}
 .wrapper {
   width: 100%;
   display: flex;
@@ -63,7 +64,7 @@ header .bg_image {
 .question h4 {
   max-width: 80%;
   color: var(--Darkpurple);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.1;
   cursor: pointer;
 }
@@ -79,6 +80,7 @@ header .bg_image {
 .icon {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 .icon img {
   width: 100%;
@@ -88,7 +90,13 @@ header .bg_image {
 .answer {
   color: var(--Grayishpurple);
   font-weight: 400;
-  font-size: 14px;
-  margin: 1rem 0;
+  font-size: 0.86rem;
+  line-height: 1.2;
+  margin-top: 1rem;
+  text-align: left;
+  padding-right: 1.5rem;
   display: none;
+}
+@media only screen and (min-width:700px){
+  
 }
