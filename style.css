@@ -51,7 +51,6 @@ header .bg_image {
 .header h1 {
   color: var(--Darkpurple);
   font-weight: 700;
-  font-size: 1rem;
 }
 .wrapper {
   width: 100%;
@@ -105,7 +104,7 @@ header .bg_image {
 @media only screen and (min-width: 760px) {
   .container {
     max-width: 90%;
-    margin: -6rem auto 5rem;
+    margin: -8rem auto 5rem;
     padding: 2rem 2rem 1rem;
     border-radius: 16px;
   }
