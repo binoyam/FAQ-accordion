@@ -39,6 +39,7 @@ header .bg_image {
   border-radius: 7px;
   position: relative;
   z-index: 999;
+  box-shadow: 0px 13px 35px -22px var(--Grayishpurple);
 }
 .header {
   display: flex;
@@ -115,6 +116,7 @@ header .bg_image {
     margin: -8rem auto 5rem;
     padding: 2rem 2rem 1rem;
     border-radius: 16px;
+    box-shadow: 0px 13px 70px -32px var(--Grayishpurple);
   }
   .header img {
     width: 40px;
