@@ -1,6 +1,5 @@
 var questions = document.querySelectorAll(".question");
 
-
 questions.forEach((question) => {
     question.addEventListener("click", showAnswer)
 })
@@ -16,3 +15,4 @@ function showAnswer() {
     iconImg.src = "./images/icon-minus.svg";
   }
 }
+//can be better
