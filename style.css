@@ -101,6 +101,14 @@ header .bg_image {
   display: none;
 }
 
+@media only screen and (min-width: 500px) {
+  .container {
+    max-width: 70%;
+  }
+  .question h4 {
+    max-width: 85%;
+  }
+}
 @media only screen and (min-width: 760px) {
   .container {
     max-width: 90%;
@@ -137,17 +145,23 @@ header .bg_image {
     height: 30px;
   }
 }
-@media only screen and (min-width: 1020px){
+@media only screen and (min-width: 900px) {
+  .container {
+    max-width: 78%;
+  }
+}
+@media only screen and (min-width: 1020px) {
   .container {
     max-width: 70%;
   }
 }
-@media only screen and (min-width: 1120px){
+
+@media only screen and (min-width: 1220px) {
   .container {
     max-width: 60%;
   }
 }
-@media only screen and (min-width: 1220px){
+@media only screen and (min-width: 1360px) {
   .container {
     max-width: 50%;
   }
