@@ -69,14 +69,14 @@ header .bg_image {
   color: var(--Darkpurple);
   font-weight: 600;
   font-size: 1rem;
-  line-height: 1.1;
+  line-height: 1;
   cursor: pointer;
 }
 .question h4:hover {
   color: var(--Grayishpurple);
 }
 .faq {
-  padding: 1rem 0;
+  padding: 0.7rem 0;
 }
 .faq:not(:last-child) {
   border-bottom: 1px solid var(--Lightpink);
@@ -94,9 +94,8 @@ header .bg_image {
 .answer {
   color: var(--Grayishpurple);
   font-weight: 400;
-  font-size: 0.86rem;
-  line-height: 1.2;
-  margin-top: 1rem;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
   text-align: left;
   padding-right: 1.5rem;
   display: none;
@@ -113,34 +112,33 @@ header .bg_image {
 @media only screen and (min-width: 760px) {
   .container {
     max-width: 90%;
-    margin: -8rem auto 5rem;
-    padding: 2rem 2rem 1rem;
+    margin: -6.5rem auto 5rem;
+    padding: 1.5rem 2rem 0.5rem;
     border-radius: 16px;
     box-shadow: 0px 13px 70px -32px var(--Grayishpurple);
   }
   .header img {
-    width: 40px;
+    width: 33px;
   }
   .header {
     gap: 1.5rem;
   }
   .header h1 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
   }
   header .bg_image {
-    height: 320px;
     background-image: url(./images/background-pattern-desktop.svg);
   }
   .question h4 {
     max-width: 100%;
-    font-size: 1.4rem;
-    line-height: 1;
+    font-size: 1rem;
   }
   .answer {
     font-size: 1rem;
+    margin-top: 0.7rem;
   }
   .faq {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
   }
   .icon {
     width: 30px;
