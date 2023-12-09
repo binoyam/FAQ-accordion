@@ -140,18 +140,15 @@ header .bg_image {
 @media only screen and (min-width: 1020px){
   .container {
     max-width: 70%;
-
   }
 }
 @media only screen and (min-width: 1120px){
   .container {
     max-width: 60%;
-
   }
 }
 @media only screen and (min-width: 1220px){
   .container {
-    max-width: 55%;
-
+    max-width: 50%;
   }
 }
