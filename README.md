@@ -1,6 +1,6 @@
 ## FAQ accordion
 
-### [Live preview](https://faqaccordionfrontendmentor.netlify.app)
+### [Live preview](https://frontendmentorfaq-accordion.netlify.app)
 
 #### Mobile first, responsive FAQ accordion
 
