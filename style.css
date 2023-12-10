@@ -99,7 +99,9 @@ header .bg_image {
   padding-right: 1.5rem;
   display: none;
 }
-
+.answer.active{
+  display: block;
+}
 @media only screen and (min-width: 500px) {
   .container {
     max-width: 70%;
